@@ -14,7 +14,7 @@ const Container = styled.section`
 `;
 
 const Name = styled.div`
-  font-family: 'Valencia';
+  font-family: 'Rifrex-bold';
   text-align:center;
   padding-right: 10px;
   @media ${device.mobileS} {
@@ -59,7 +59,7 @@ class NameAndJobTitle extends Component {
   render() {
     return (
       <Container>
-        <Name>Suresh Murali</Name>
+        <Name>Raj Lunia</Name>
         <Title>UI/UX DESIGNER & DEVELOPER</Title>
       </Container>
     );

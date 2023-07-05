@@ -95,11 +95,11 @@ class Skills extends Component {
         <SkillsTitle scrollPercent={scrollPercent}>SKILLS</SkillsTitle>
         <SkillsList>
           <div>
+          Software Development
+            <br />
             Product Design
             <br />
-            Design system
-            <br />
-            Information architect
+            Project Management
             <br />
             <br />
             HTML & CSS
@@ -109,19 +109,20 @@ class Skills extends Component {
             Node JS
             <br />
           </div>
+          <br />
           <div>
-            Project Management
+            Photoshop
             <br />
-            Visual Communication
+            Fusion 360
             <br />
-            Concept development
+            Illustrator
             <br />
             <br />
-            Figma
+            Swift
             <br />
-            Sketch
+            Python
             <br />
-            Principle
+            Java
             <br />
           </div>
         </SkillsList>

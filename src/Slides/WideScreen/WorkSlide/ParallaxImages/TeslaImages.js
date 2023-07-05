@@ -12,7 +12,7 @@ import RubyMasterclass3 from '../../../../Assets/Images/RubyMasterclass/RubyMast
 
 const Heat = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 20}%)`,
+    transform: `translate(0px,-${(scroll) * 28}%) scale(0.8)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -25,7 +25,7 @@ height: 80vh;
 
 const Tyre = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 12}%) scale(0.9)`,
+    transform: `translate(0px,-${(scroll) * 25}%) scale(0.8)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -39,7 +39,7 @@ filter: blur(0.6px);
 
 const Battery = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.9)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.8)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -53,7 +53,7 @@ filter: blur(0.8px);
 
 const Lock = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 1}%) scale(0.9)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.9)`,
   }),
 })`
 transition: transform 0.2s ease-out;

@@ -27,6 +27,7 @@ class Work extends Component {
         projectDesc: '',
         projectType: '',
         roles: [''],
+        redirectUrl: ''
       },
       {
         number: '01',
@@ -34,6 +35,7 @@ class Work extends Component {
         projectDesc: 'A tech company focusing on minimalist, high-quality, and user-friendly product designs.',
         projectType: 'Company',
         roles: ['Co-Founder', 'Product Designer', 'Full stack developer'],
+        redirectUrl: 'https://rifrex.com',
         },
         {
         number: '02',
@@ -41,6 +43,7 @@ class Work extends Component {
         projectDesc: "Mobile app and website for the world's most expensive jewelry brand.",
         projectType: 'iOS APP',
         roles: ['UI Designer', 'Front-end Developer'],
+        redirectUrl: 'https://www.faidee.com'
         },
         {
         number: '03',
@@ -48,6 +51,7 @@ class Work extends Component {
         projectDesc: 'Comprehensive course exploring the intricacies of Burmese Rubies.',
         projectType: 'iOS/Web APP',
         roles: ['UI Designer', 'Front-end Developer'],
+        redirectUrl: 'https://rubymasterclass.com'
         },
         {
         number: '04',
@@ -55,6 +59,7 @@ class Work extends Component {
         projectDesc: 'AI assistant integrated into iMessage, leveraging OpenAI\'s ChatGPT technology',
         projectType: 'Messaging AI',
         roles: ['Full stack developer'],
+        redirectUrl: 'https://www.textgpt.chat'
         },
       // {
       //   number: '05',
@@ -76,6 +81,7 @@ class Work extends Component {
         projectDesc: '',
         projectType: '',
         roles: [''],
+        redirectUrl: ''
       },
     ];
   }
@@ -127,6 +133,7 @@ class Work extends Component {
         projectType={this.workDetails[slideNumber].projectType}
         roles={this.workDetails[slideNumber].roles}
         refreshToggle={refresh}
+        redirectUrl={this.workDetails[slideNumber].redirectUrl}
       />
     );
   }
