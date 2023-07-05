@@ -26,7 +26,7 @@ height: 60vh;
 
 const Tyre = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 11.5}%) scale(0.62)`,
+    transform: `translate(0px,-${(scroll) * 20.5}%) scale(0.82)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -41,7 +41,7 @@ filter: blur(0.6px);
 
 const Battery = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 4.5}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -56,7 +56,7 @@ filter: blur(0.8px);
 
 const Lock = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 0.9}%) scale(0.55)`,
   }),
 })`
 transition: transform 0.2s ease-out;

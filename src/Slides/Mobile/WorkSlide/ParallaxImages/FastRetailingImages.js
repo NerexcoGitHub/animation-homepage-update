@@ -12,7 +12,7 @@ import RifRex3Img from '../../../../Assets/Images/RifRex/RifRex3.png';
 
 const FastRetailingPhoneUQ = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 20}%) scale(0.7)`,
+    transform: `translate(0px,-${(scroll) * 25}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -26,13 +26,13 @@ height: 50vh;
 
 const FastRetailingPhoneGU = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 9.5}%) scale(0.62)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.62)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom:-125vh;
-right: 2vw;
+right: 4vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
 height: 50vh;
@@ -41,7 +41,7 @@ filter: blur(0.6px);
 
 const FastRetailingPhonePLST = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 4.5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 10}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -56,7 +56,7 @@ filter: blur(0.8px);
 
 const FastRetailingPhoneGU2 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 6}%) scale(0.6)`,
   }),
 })`
 transition: transform 0.2s ease-out;

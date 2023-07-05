@@ -12,7 +12,7 @@ import Faidee3 from '../../../../Assets/Images/Faidee/Faidee3.png';
 
 const Task = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.7)`,
+    transform: `translate(0px,-${(scroll) * 15}%) scale(0.6)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -26,7 +26,7 @@ height: 80vh;
 
 const Alert = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 11.5}%) scale(0.62)`,
+    transform: `translate(0px,-${(scroll) * 13}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -41,7 +41,7 @@ filter: blur(0.6px);
 
 const CustomerDetail = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2.5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;

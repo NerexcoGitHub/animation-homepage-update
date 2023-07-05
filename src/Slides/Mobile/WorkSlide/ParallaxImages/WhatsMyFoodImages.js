@@ -12,7 +12,7 @@ import TextGPT3 from '../../../../Assets/Images/TextGPT/TextGPT3.png';
 
 const Restaurant = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.9)`,
+    transform: `translate(0px,-${(scroll) * 25}%) scale(0.9)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -26,7 +26,7 @@ height: 40vh;
 
 const Home = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8.5}%) scale(0.9)`,
+    transform: `translate(0px,-${(scroll) * 20.5}%) scale(0.9)`,
   }),
 })`
 transition: transform 0.2s ease-out;
