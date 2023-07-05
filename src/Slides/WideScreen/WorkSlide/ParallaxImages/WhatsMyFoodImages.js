@@ -31,7 +31,7 @@ const Home = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom:-45vh;
-right: 2vw;
+right: 6vw;
 /* border: 1px dashed red; */
 height: 60vh;
 filter: blur(0.6px);
@@ -58,7 +58,7 @@ const AddRestaurant = styled.img.attrs({
 })`
 transition: transform 0.2s ease-out;
 bottom:-55vh;
-right: 5vw;
+right: 10vw;
 position: absolute;
 /* border: 1px dashed red; */
 height: 50vh;
