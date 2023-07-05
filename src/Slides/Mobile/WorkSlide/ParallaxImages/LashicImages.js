@@ -5,6 +5,10 @@ import alertImg from '../../../../Assets/Images/Lashic/Alert.png';
 import taskImg from '../../../../Assets/Images/Lashic/Task.png';
 import customersImg from '../../../../Assets/Images/Lashic/Customers.png';
 import customerDetailImg from '../../../../Assets/Images/Lashic/CustomerDetail.png';
+import Faidee0 from '../../../../Assets/Images/Faidee/Faidee0.png';
+import Faidee1 from '../../../../Assets/Images/Faidee/Faidee1.png';
+import Faidee2 from '../../../../Assets/Images/Faidee/Faidee2.png';
+import Faidee3 from '../../../../Assets/Images/Faidee/Faidee3.png';
 
 const Task = styled.img.attrs({
   style: ({ scroll }) => ({
@@ -22,7 +26,7 @@ height: 80vh;
 
 const Alert = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8.5}%) scale(0.62)`,
+    transform: `translate(0px,-${(scroll) * 11.5}%) scale(0.62)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -31,13 +35,13 @@ bottom:-125vh;
 right: 2vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 50vh;
 filter: blur(0.6px);
 `;
 
 const CustomerDetail = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
+    transform: `translate(0px,-${(scroll) * 2.5}%) scale(0.5)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -52,7 +56,7 @@ filter: blur(0.8px);
 
 const Customers = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.45)`,
+    transform: `translate(0px,-${(scroll) * 3}%) scale(0.45)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -61,7 +65,7 @@ right: 10vw;
 transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 50vh;
 filter: blur(1.2px);
 `;
 
@@ -77,10 +81,10 @@ class LashicImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <CustomerDetail src={customerDetailImg} scroll={scrollPercent} alt="customerDetails" />
-        <Customers src={customersImg} scroll={scrollPercent} alt="customers" />
-        <Alert src={alertImg} scroll={scrollPercent} alt="Alert" />
-        <Task src={taskImg} scroll={scrollPercent} alt="Task" />
+        <CustomerDetail src={Faidee2} scroll={scrollPercent} alt="customerDetails" />
+        <Customers src={Faidee3} scroll={scrollPercent} alt="customers" />
+        <Alert src={Faidee1} scroll={scrollPercent} alt="Alert" />
+        <Task src={Faidee0} scroll={scrollPercent} alt="Task" />
       </React.Fragment>
     );
   }

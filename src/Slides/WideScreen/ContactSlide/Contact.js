@@ -42,7 +42,7 @@ const ContactTitle = styled.div.attrs({
 
 const SocialMediaIcons = styled.div`
   /* border: 1px solid black; */
-  margin-left: 20%;
+  margin-left: 10%;
   margin-right: 3%;
   z-index: 1;
   transform: translateY(210%);
@@ -76,7 +76,7 @@ class Contact extends Component {
     const { body, documentElement } = event.srcElement;
     const sd = Math.max(body.scrollTop, documentElement.scrollTop);
     let sp = (sd / (documentElement.scrollHeight - documentElement.clientHeight) * 100);
-    const minlimit = (documentElement.clientHeight * 1040) / documentElement.scrollHeight;
+    const minlimit = (documentElement.clientHeight * 760) / documentElement.scrollHeight;
     if (sp >= minlimit && sp <= 100) {
       sp -= minlimit;
       this.setState({ scrollPercent: sp });

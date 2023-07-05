@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import device from '../../Assets/Responsive/breakpoints';
 
 const Container = styled.div`
-    height: 120vh;/* Since pageSplitTime is 1.4 */
+    height: 80vh;/* Since pageSplitTime is 1.4 */
     width:100%;
     /* border: 1px solid blue; */
     position: relative;
@@ -19,7 +19,7 @@ const SkillsTitle = styled.div.attrs({
   font-family: 'AvenirHeavy';
   position: absolute;
   color: #EEE;
-  top:30%;
+  top:10%;
   right:-50%;
   @media ${device.laptop} {
     font-size: 180px;
@@ -80,7 +80,7 @@ class Skills extends Component {
     const { body, documentElement } = event.srcElement;
     const sd = Math.max(body.scrollTop, documentElement.scrollTop);
     let sp = (sd / (documentElement.scrollHeight - documentElement.clientHeight) * 100);
-    const minlimit = (documentElement.clientHeight * 950) / documentElement.scrollHeight;
+    const minlimit = (documentElement.clientHeight * 650) / documentElement.scrollHeight;
     const maxlimit = (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
     if (sp >= minlimit && sp <= maxlimit + 3) {
       sp -= minlimit;

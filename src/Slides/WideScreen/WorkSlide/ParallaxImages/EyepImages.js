@@ -47,6 +47,8 @@ class EyepImages extends Component {
       <React.Fragment>
         <Tablet src={eyepTabletImg} scroll={scrollPercent} alt="eyepTablet" />
         <Iphone src={eyepIphoneImg} scroll={scrollPercent} alt="eyepIphone" />
+        <Tablet src={eyepTabletImg} scroll={scrollPercent} alt="eyepTablet" />
+        <Iphone src={eyepIphoneImg} scroll={scrollPercent} alt="eyepIphone" />
       </React.Fragment>
     );
   }

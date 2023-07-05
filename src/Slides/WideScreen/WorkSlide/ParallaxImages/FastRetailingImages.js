@@ -5,11 +5,15 @@ import fastRetailingUQImg from '../../../../Assets/Images/FastRetailing/UQ.png';
 import fastRetailingGUImg from '../../../../Assets/Images/FastRetailing/GU.png';
 import fastRetailingPLSTImg from '../../../../Assets/Images/FastRetailing/PLST.png';
 import fastRetailingGU2Img from '../../../../Assets/Images/FastRetailing/GU2.png';
+import RifRex0Img from '../../../../Assets/Images/RifRex/RifRex0.png';
+import RifRex1Img from '../../../../Assets/Images/RifRex/RifRex1.png';
+import RifRex2Img from '../../../../Assets/Images/RifRex/RifRex2.png';
+import RifRex3Img from '../../../../Assets/Images/RifRex/RifRex3.png';
 
 
 const FastRetailingPhoneUQ = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%)`,
+    transform: `translate(0px,-${(scroll) * 25}%)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -17,7 +21,7 @@ position: absolute;
 top: 90vh;
 left:0vw;
 /* border: 1px dashed red; */
-height: 80vh; 
+height: 50vh; 
 `;
 
 const FastRetailingPhoneGU = styled.img.attrs({
@@ -30,7 +34,7 @@ position: absolute;
 top:45vh;
 right: 2vw;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 70vh;
 filter: blur(0.6px);
 `;
 
@@ -50,7 +54,7 @@ filter: blur(0.8px);
 
 const FastRetailingPhoneGU2 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.6)`,
+    transform: `translate(0px,-${(scroll) * 0.5}%) scale(0.6)`,
   }),
 })`
 transition: transform 0.2s ease-out;
@@ -74,10 +78,10 @@ class FastRetailingImages extends Component {
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>
-        <FastRetailingPhonePLST src={fastRetailingPLSTImg} scroll={scrollPercent} alt="fastRetailingPLST" />
-        <FastRetailingPhoneGU2 src={fastRetailingGU2Img} scroll={scrollPercent} alt="fastRetailingGU2" />
-        <FastRetailingPhoneUQ src={fastRetailingUQImg} scroll={scrollPercent} alt="fastRetailingUQ" />
-        <FastRetailingPhoneGU src={fastRetailingGUImg} scroll={scrollPercent} alt="fastRetailingGU" />
+        <FastRetailingPhonePLST src={RifRex2Img} scroll={scrollPercent} alt="fastRetailingPLST" />
+        <FastRetailingPhoneGU2 src={RifRex3Img} scroll={scrollPercent} alt="fastRetailingGU2" />
+        <FastRetailingPhoneUQ src={RifRex0Img} scroll={scrollPercent} alt="fastRetailingUQ" />
+        <FastRetailingPhoneGU src={RifRex1Img} scroll={scrollPercent} alt="fastRetailingGU" />
       </React.Fragment>
     );
   }

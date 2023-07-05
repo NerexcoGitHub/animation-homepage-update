@@ -12,7 +12,7 @@ const ImageContainer = styled.div`
 /** border: 10px dashed black; */
 margin-left:50%;
 width:50%;
-height:925vh;
+height:655vh;
 display: flex;
 flex-flow: column nowrap;
 `;
@@ -80,7 +80,7 @@ class ImageContent extends Component {
             scrollHeight={scrollHeight}
           />
         </ImageBox>
-        <ImageBox height={boxHeight}>
+        {/* <ImageBox height={boxHeight}>
           <EyepImages
             boxHeight={boxHeight}
             index={3}
@@ -88,7 +88,7 @@ class ImageContent extends Component {
             screenHeight={screenHeight}
             scrollHeight={scrollHeight}
           />
-        </ImageBox>
+        </ImageBox> */}
         <ImageBox height={boxHeight}>
           <TeslaImages
             boxHeight={boxHeight}
@@ -107,7 +107,7 @@ class ImageContent extends Component {
             scrollHeight={scrollHeight}
           />
         </ImageBox>
-        <ImageBox height={boxHeight}>
+        {/* <ImageBox height={boxHeight}>
           <VoistrapImages
             boxHeight={boxHeight}
             index={6}
@@ -115,7 +115,7 @@ class ImageContent extends Component {
             screenHeight={screenHeight}
             scrollHeight={scrollHeight}
           />
-        </ImageBox>
+        </ImageBox> */}
       </ImageContainer>
     );
   }
